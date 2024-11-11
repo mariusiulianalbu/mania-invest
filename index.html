@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MANIAINVEST - Coming Soon</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+</head>
+<body>
+    <div id="particles-js"></div>
+    <div class="container">
+        <div class="logo">MANIAINVEST</div>
+        <div class="tagline">Expertiza în Investiții și Analiză Bursieră</div>
+        <div class="stock-ticker">
+            <div class="chart">
+                <div class="bar" style="animation-delay: -0.5s"></div>
+                <div class="bar" style="animation-delay: -0.4s"></div>
+                <div class="bar" style="animation-delay: -0.3s"></div>
+                <div class="bar" style="animation-delay: -0.2s"></div>
+                <div class="bar" style="animation-delay: -0.1s"></div>
+                <div class="bar" style="animation-delay: 0s"></div>
+            </div>
+        </div>
+        <div class="description">
+            Pregătim pentru dumneavoastră o platformă completă de analiză și investiții la bursă. 
+            Expertiză profesională, instrumente avansate și strategii dovedite pentru succesul 
+            dumneavoastră în piețele financiare.
+        </div>
+        <div class="countdown">În Curând</div>
+        <div class="social-links">
+            <a href="#" title="Facebook">Facebook</a>
+            <a href="#" title="Twitter">Twitter</a>
+            <a href="#" title="LinkedIn">LinkedIn</a>
+        </div>
+    </div>
+
+    <script>
+        particlesJS("particles-js", {
+            "particles": {
+                "number": {
+                    "value": 80,
+                    "density": {
+                        "enable": true,
+                        "value_area": 800
+                    }
+                },
+                "color": {
+                    "value": "#00ff88"
+                },
+                "shape": {
+                    "type": "circle"
+                },
+                "opacity": {
+                    "value": 0.5,
+                    "random": false
+                },
+                "size": {
+                    "value": 3,
+                    "random": true
+                },
+                "line_linked": {
+                    "enable": true,
+                    "distance": 150,
+                    "color": "#00ff88",
+                    "opacity": 0.4,
+                    "width": 1
+                },
+                "move": {
+                    "enable": true,
+                    "speed": 6,
+                    "direction": "none",
+                    "random": false,
+                    "straight": false,
+                    "out_mode": "out",
+                    "bounce": false
+                }
+            },
+            "interactivity": {
+                "detect_on": "canvas",
+                "events": {
+                    "onhover": {
+                        "enable": true,
+                        "mode": "repulse"
+                    },
+                    "onclick": {
+                        "enable": true,
+                        "mode": "push"
+                    },
+                    "resize": true
+                }
+            },
+            "retina_detect": true
+        });
+    </script>
+</body>
+</html>
